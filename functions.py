@@ -38,3 +38,15 @@ print("result3:", result3) #source yanada aniqroq
 
 result4 = give_greet("John")
 print("result4:", result4) 
+
+print("===== Scope =====")
+b = 100 
+
+
+# DEFINE
+def calculate(a):
+    c = a + b
+    print(f"the c value: {c}")
+
+# CALL
+calculate(5)

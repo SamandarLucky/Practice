@@ -1,0 +1,23 @@
+''' OBJECT -malum bir maqsad bilan yaratilgan o'zini method va property ega bo'lgan datatype
+
+'''
+import array #package/module
+import math
+from math import ceil, asin
+print("===== What is object =====")
+# An object has state and method properties.
+# Everything is object in Python!
+
+print(type('Hello World!'))
+print(type(100))
+print(type(True))
+print(type(array))
+print(type(math))
+
+# Paradigm > Functional Programming & OOP
+# OOP 4 CONCEPTS > Abstraction, Encapsulation, Polimorphism, Inheritence
+result1 = math.ceil(97.7) # Call
+print("result1:", result1)
+
+result2 = ceil(98.8)
+print("result2:", result2)
